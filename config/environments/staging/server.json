@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "cms-apptest1-stage.herokuapp.com",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
