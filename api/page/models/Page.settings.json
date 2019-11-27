@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "page",
+  "info": {
+    "name": "page",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text",
+      "maxLength": 240
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
