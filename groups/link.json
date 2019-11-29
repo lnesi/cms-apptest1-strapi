@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "Link",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_links",
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "enum": [
+        "_blank",
+        "_self"
+      ],
+      "type": "enumeration"
+    }
+  }
+}

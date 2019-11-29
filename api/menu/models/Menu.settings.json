@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "menu",
+  "info": {
+    "name": "menu",
+    "description": "Add Menus"
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "Items": {
+      "group": "link",
+      "repeatable": true,
+      "type": "group"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
